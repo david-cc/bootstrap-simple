@@ -22,24 +22,91 @@
 		
 	</head>
 	<body>
-	
-	<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
-	
+		<div class="container" id="main">
+			<nav class="navbar navbar-fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand"><img src="images/logo.png" alt="Your Logo"></a>
 
-	<!-- All Javascript at the bottom of the page for faster page loading -->
+          <div class="nav-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="#">Home</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Web Design</a></li>
+                  <li><a href="#">Web Development</a></li>
+                  <li><a href="#">SEO</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">More Services</li>
+                  <li><a href="#">Content Creation</a></li>
+                  <li><a href="#">Social Media Marketing</a></li>
+                </ul><!-- end dropdown-menu -->
+              </li>
+            </ul>
+
+            <form class="navbar-form pull-left">
+              <input type="text" class="form-control" id="searchInput" placeholder="Search this site...">
+              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+            </form><!-- end navbar-form -->
+
+            <ul class="nav navbar-nav pull-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong>
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li><a href="#"><span class="glyphicon glyphicon-wrench"> Settings</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-refresh"> Update Profile</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-briefcase"> Billing</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-off"> Sign out</a></li>
+                </ul>
+              </li>
+            </ul><!-- end nav pull-right -->
+          </div><!-- end nav-collapse -->
+        </div>	
+			</nav><!-- end navbar -->
+			
+			<div class="carousel slide" id="myCarousel">
+				
+			</div><!-- end caroussel -->
+
+			<div class="row" id="bigCallout">
+				
+			</div><!-- end bigCallout -->
+      <div class="row" id="featuresHeading">
+        
+      </div><!-- end featuresHeading -->
+      <div class="row" id="features">
+        
+      </div><!-- end features -->
+      <div class="row" id="moreInfo">
+        
+      </div><!-- end moreInfo -->
+      <div class="row" id="moreCourses">
+        
+      </div><!-- end moreCourses -->
+		</div><!-- end container div-->
+
+    <footer>
+      
+    </footer>
+
+		<!-- All Javascript at the bottom of the page for faster page loading -->
+			
+		<!-- First try for the online version of jQuery-->
+		<script src="http://code.jquery.com/jquery.js"></script>
 		
-	<!-- First try for the online version of jQuery-->
-	<script src="http://code.jquery.com/jquery.js"></script>
-	
-	<!-- If no online access, fallback to our hardcoded version of jQuery -->
-	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
-	
-	<!-- Bootstrap JS -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	
-	<!-- Custom JS -->
-	<script src="includes/js/script.js"></script>
-	
+		<!-- If no online access, fallback to our hardcoded version of jQuery -->
+		<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+		
+		<!-- Bootstrap JS -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+		<!-- Custom JS -->
+		<script src="includes/js/script.js"></script>	
 	</body>
 </html>
-
