@@ -25,6 +25,12 @@
 		<div class="container" id="main">
 			<nav class="navbar navbar-fixed-top">
         <div class="container">
+          <button type="button" class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
           <a href="#" class="navbar-brand"><img src="images/logo.png" alt="Your Logo"></a>
 
           <div class="nav-collapse collapse navbar-responsive-collapse">
@@ -58,20 +64,57 @@
                 </a>
 
                 <ul class="dropdown-menu">
-                  <li><a href="#"><span class="glyphicon glyphicon-wrench"> Settings</a></li>
-                  <li><a href="#"><span class="glyphicon glyphicon-refresh"> Update Profile</a></li>
-                  <li><a href="#"><span class="glyphicon glyphicon-briefcase"> Billing</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a></li>
                   <li class="divider"></li>
-                  <li><a href="#"><span class="glyphicon glyphicon-off"> Sign out</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a></li>
                 </ul>
               </li>
             </ul><!-- end nav pull-right -->
           </div><!-- end nav-collapse -->
-        </div>	
+        </div><!-- end container -->
 			</nav><!-- end navbar -->
 			
 			<div class="carousel slide" id="myCarousel">
-				
+				<!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+          <li data-slide-to="1" data-target="#myCarousel"></li>
+          <li data-slide-to="2" data-target="#myCarousel"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active" id="slide1">
+            <div class="carousel-caption">
+              <h4>Bootstrap 3</h4>
+              <p>Learn how to build your first responsive webiste with the brand new Twitter Bootstrap 3!</p>
+            </div><!-- end carousel-caption -->
+          </div><!-- end item -->
+
+          <div class="item" id="slide2">
+            <div class="carousel-caption">
+              <h4>Learn to code a website in 4 hours!</h4>
+              <p>PSD to HTML5 &amp; CSS3 is a popular Udemy course that has helped thousands of aspiring web designers launch their web design career.</p>
+            </div><!-- end carousel-caption -->
+          </div><!-- end item -->
+
+          <div class="item" id="slide3">
+            <div class="carousel-caption">
+              <h4>Web Hosting 101</h4>
+              <p>Learn how to buy a perfect domain name and hosting package, and get your website live on the web with ease.</p>
+            </div><!-- end carousel-caption -->
+          </div><!-- end item -->
+        </div><!-- end carousel-inner -->
+
+        <!-- Controls left and right -->
+        <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+          <span class="icon-prev"></span>
+        </a>
+        <a href="#myCarousel" class="right carousel-control" data-slide="next">
+          <span class="icon-next"></span>
+        </a>
 			</div><!-- end caroussel -->
 
 			<div class="row" id="bigCallout">
