@@ -19,7 +19,18 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Typography
    -------------------------------------- */
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
 
+.well .page-header {
+  margin-top: 0;
+}
+
+.well .page-header h1 {
+  margin-top: 0;
+}
 
 
 /* --------------------------------------
@@ -68,7 +79,14 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
+.alert {
+  display: none;
+  margin-top: 20px;
+}
 
+.well {
+  margin: 20px 0;
+}
 
 
 /* --------------------------------------
