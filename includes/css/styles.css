@@ -21,12 +21,8 @@ Notes:	 Hand coded for Udemy.com
   margin: 0 0 20px 0;
 }
 
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
-body {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+#inputMessage {
+  margin-bottom: 15px;
 }
 
 .well .page-header {
@@ -37,6 +33,13 @@ body {
   margin-top: 0;
 }
 
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
 
 /* --------------------------------------
    Navbar
@@ -93,6 +96,9 @@ body {
   margin: 20px 0;
 }
 
+.tabbable .thumbnail {
+  margin: 0 20px 10px 0;
+}
 
 /* --------------------------------------
    Media Queries

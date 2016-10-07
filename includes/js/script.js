@@ -9,14 +9,23 @@ Notes:	 Hand coded for Udemy.com
 
 */
 $(function(){
+  // Show alert
   $('#alertMe').click(function(e){
     e.preventDefault();
     $('#successAlert').slideDown();
   });
 
+  // Hide alert
   $('#alertHide').click(function(e){
     e.preventDefault();
-    console.log("button close clicked");
     $('#successAlert').slideUp();
   });
+
+  $('a.pop').click(function(e){
+    e.preventDefault();
+  });
+
+  $('a.pop').popover();
+
+  $('[rel="tooltip"]').tooltip();
 });
